@@ -1,6 +1,6 @@
 # midiBox
 
-This project is a follow-on to my MIDIdings project. I realized it can almost all be done with Linux utils!
+This project is a follow-on to my [miditrans](https://github.com/RobCranfill/miditrans) project. I realized it can almost all be done with Linux utils!
 
 See @midiDings project for Linux software to install.
 
