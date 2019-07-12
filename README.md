@@ -2,8 +2,24 @@
 
 This project is a follow-on to my [miditrans](https://github.com/RobCranfill/miditrans) project. I realized it can almost all be done with Linux utils!
 
-See @midiDings project for Linux software to install.
+## Hardware
 
+### The Music Gear
+The music gear I am integrating is
+ * A DM6 e-drum kit
+ * An SR-16 drum machine
+ * A MKII mini keyboard/pad
+
+### Additional hardware
+* A USB hub, since the RPi only has 2 USB ports, and I need at least three.
+
+## System Software
+(copy text from MidiDings project here)
+
+## Additional Software
+(copy text from MidiDings project here)
+
+## MIDI configuration
 
     $ lsusb
     Bus 001 Device 005: ID 0763:1011 Midiman MidiSport 1x1
@@ -20,3 +36,4 @@ See @midiDings project for Linux software to install.
     aconnect MPKmini2 'MidiSport 1x1'
     aconnect -lio
     
+
