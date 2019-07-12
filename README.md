@@ -6,9 +6,9 @@ This project is a follow-on to my [miditrans](https://github.com/RobCranfill/mid
 
 ### The Music Gear
 The music gear I am integrating is
- * A DM6 e-drum kit
- * An SR-16 drum machine
- * A MKII mini keyboard/pad
+ * Alesis DM6 e-drum kit
+ * Alesis SR-16 drum machine
+ * Akai MPK Mini MKII mini keyboard/pad
 
 ### Additional hardware
 * A USB hub, since the RPi only has 2 USB ports, and I need at least three.
