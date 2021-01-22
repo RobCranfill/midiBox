@@ -1,5 +1,0 @@
-SUBSYSTEM=="usb", ACTION=="add",    ENV{ID_MODEL}=="e-drum", RUN+="/home/pi/bin/udev-connect.sh add"
-SUBSYSTEM=="usb", ACTION=="remove", ENV{PRODUCT}=="a67/5011/122", RUN+="/home/pi/bin/udev-connect.sh remove"
-
-SUBSYSTEM=="usb", ACTION=="add",    ENV{ID_VENDOR}=="0763",  RUN+="/home/pi/bin/udev-connect.sh add"
-SUBSYSTEM=="usb", ACTION=="remove", ENV{ID_VENDOR}=="0763",  RUN+="/home/pi/bin/udev-connect.sh remove"
