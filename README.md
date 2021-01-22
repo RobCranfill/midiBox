@@ -1,5 +1,8 @@
 # midiBox
 
+WARNING! THIS PROJECT IS IN-WORK, AND THE DOCS ARE NOT UP TO DATE! :-)
+
+ 
 This project is a follow-on to my [miditrans](https://github.com/RobCranfill/miditrans) project. I realized it can almost all be done with Linux utils!
 
 For full details of what I did, see this project's [Wiki](https://github.com/RobCranfill/midiBox/wiki).
