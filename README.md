@@ -2,14 +2,17 @@
 
 This project is a follow-on to my [miditrans](https://github.com/RobCranfill/miditrans) project. I realized it can almost all be done with Linux utils!
 
-For full details of what I did, see the Wiki here - https://github.com/RobCranfill/midiBox/wiki
+For full details of what I did, see this project's [Wiki](https://github.com/RobCranfill/midiBox/wiki).
 
 ## Concept of Operations
 The Pi is mostly just acting as a MIDI router, sending MIDI messages from the two inputs &mdash; the drumkit and the keyboard (used for control messages, not musical notes) &mdash; to the one output - the drum machine. This is accomplished by running a script
 
 Since this is running "headless", we need a way to shut the Pi down nicely; this is done with a background task that watches for a pushbutton (either simple button added for this purpose, or one of the two included on the Adafruit display) and shuts the Pi down when that is pressed.
 
-[connection diagram]
+![midibox diagram](https://github.com/RobCranfill/midiBox/midibox.png)
+
+
+Again, for full details, see this project's [Wiki](https://github.com/RobCranfill/midiBox/wiki).
 
 
 ## Hardware
@@ -29,7 +32,7 @@ The music gear I am integrating is
  * ASLA, for 'aconnect':
  ** 'sudo apt-get install alsa-base alsa-utils alsa-oss'
  * You may need more, depending on what's installed by default on your system. See my [miditrans](https://github.com/RobCranfill/miditrans) project.
- 
+
 ## Additional Software
  * MidiSport "firmware" must be installed:
  ** 'sudo apt-get install midisport-firmware'
