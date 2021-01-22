@@ -9,7 +9,7 @@ The Pi is mostly just acting as a MIDI router, sending MIDI messages from the tw
 
 Since this is running "headless", we need a way to shut the Pi down nicely; this is done with a background task that watches for a pushbutton (either simple button added for this purpose, or one of the two included on the Adafruit display) and shuts the Pi down when that is pressed.
 
-![midibox diagram](https://github.com/RobCranfill/midiBox/midibox.png)
+![midibox diagram](midibox.png)
 
 
 Again, for full details, see this project's [Wiki](https://github.com/RobCranfill/midiBox/wiki).
